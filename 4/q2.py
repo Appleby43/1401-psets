@@ -9,11 +9,11 @@ import conversions as conv
 
 print(180)
 
-L = conv.cm_to_m(14.2)
-charge = conv.unfemto(77.3)
+L = conv.cm_to_m(11.7)
+charge = conv.unfemto(47.7)
 density = charge / L
-d = conv.cm_to_m(9.63)
+d = conv.cm_to_m(6.53)
 
 E = density * L / (4 * math.pi * const.e_0 * d * (d + L))
 
-print(E)
+print(-E)

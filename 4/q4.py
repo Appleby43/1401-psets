@@ -7,8 +7,8 @@ sys.path.append('../')
 import constants as const
 import conversions as conv
 
-a = conv.mm_to_m(45.5)
-b = conv.mm_to_m(47.5)
+a = conv.mm_to_m(37.8)
+b = conv.mm_to_m(39.1)
 
 C = 4 * math.pi * const.e_0 / ((1 / a) - (1 / b))
 print(conv.pico(C))
