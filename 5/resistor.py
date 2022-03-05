@@ -6,7 +6,7 @@ def series(resistors):
     return total
  
 def parallel(resistors):
-   total = 0
+    total = 0
     for res in resistors:
        total += (1 / res)
     return 1 / total
