@@ -8,16 +8,16 @@ import constants as const
 import conversions as conv
 
 D1 = 5
-D2 = 3.5
+D2 = 3
 
-n = 8.1 * 10 ** 28
+n = 8.3 * 10 ** 28
 
 A1 = math.pi *  (D1 / 2) ** 2
 A2 = math.pi *  (D2 / 2) ** 2
 
 # find the resistence across the sampled peice of wire
-dV = conv.unmicro(13)
-L = 2.1
+dV = conv.unmicro(15)
+L = 1.9
 
 # selected resistivity from textbook (copper)
 rho = 1.69 * 10 ** -8

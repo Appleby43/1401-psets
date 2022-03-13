@@ -10,9 +10,9 @@ import resistor
 
 #solve V = E * (1 - e^(-t / RC)) for R
 t = 1 / 3
-E = 95.1
-breakdown_v = 76.3
-C = conv.unmilli(0.125)
+E = 91.6
+breakdown_v = 70.2
+C = conv.unmilli(.104)
 
 R = t / (C * math.log(E / (E - breakdown_v)))
 

@@ -7,10 +7,10 @@ sys.path.append('../')
 import constants as const
 import conversions as conv
 
-E1 = 2.4
-E23 = 3.6
-R1 = 1.5
-R2 = 3
+E1 = 2.2 
+E23 = 5
+R1 = 0.75
+R2 = 1.5
 
 # stol'd from textbook 
 i = 2 * (E23 - E1) / (4 * R1 + R2)

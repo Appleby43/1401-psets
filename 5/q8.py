@@ -8,11 +8,11 @@ import constants as const
 import conversions as conv
 import resistor
 
-RV = 300
-RA = 3.27
+RV = 360
+RA = 4.03
 
 R0 = 100
-R = 60.6
+R = 118
 E = 12
 
 #find equivalent resistence of full circuit

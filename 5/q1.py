@@ -7,10 +7,10 @@ sys.path.append('../')
 import constants as const
 import conversions as conv
 
-R = conv.mm_to_m(2.16)
-constant_factor = 3.29 * 10 ** 8
+R = conv.mm_to_m(2.06)
+constant_factor = 3.15 * 10 ** 8
 
-inner_r_factor = 0.9
+inner_r_factor = 0.914
 
 # integrate J Da where Da = 2 * pi * r * dr
 

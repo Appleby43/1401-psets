@@ -7,9 +7,9 @@ sys.path.append('../')
 import constants as const
 import conversions as conv
 
-resistence = 7.1
+resistence = 6.9
 
-length_change = 3
+length_change = 4
 area_change = 1 / length_change
 
 print(resistence * (length_change / area_change))
