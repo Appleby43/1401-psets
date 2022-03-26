@@ -10,15 +10,12 @@ import conversions as conv
 # B = uNI
 # N = B/uI
 
-L = 1.3
-D = conv.cm_to_m(2.92)
-I = 18
-B = conv.unmilli(24.3)
+#L = conv.cm_to_m(35)
+D = conv.cm_to_m(9.7)
+I = 0.41
+R = conv.cm_to_m(9.7) / 2
 
-N = B * L / (const.u_0 * I)
+A = math.pi * R ** 2
 
-circum = math.pi * D
-
-L = N * circum
-
-print(L)
+N = 230
+print(N * I * A)
